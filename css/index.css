@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Heartless';
+  src: url('/assets/fuentes/Heartless.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fuentes/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Grenze Gotisch';
+  src: url('/assets/fuentes/static/GrenzeGotisch-Regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+
+
+body{
+  background-color: #16181a;
+  color: white;
+}
+
+header{
+  background-color: #16181a;
+}
+
+header svg{
+  color: #be0707;
+}
+
+.backgroundsvg{
+  background-color: #101113;
+  background-image: url(../assets/imagenes/Speedline-50s-1461px.svg);
+}
+
+
+
+h2{
+  text-decoration: underline solid red;
+}
+
+header a{
+  color: white;
+  padding: 0px;
+  text-decoration: none;
+  font-family: 'Grenze Gotisch', cursive;
+  border: none;
+
+}
+
+header span{
+  font-family: Heartless;
+}
+
+header button{
+  border: none !important;
+}
+
+.yunglancer{
+  font-family: Heartless;
+  font-size: 6rem;
+  opacity: 1;
+}
+
+#aboutme, #proyectos{
+  background:#101113 ;
+  width: 100%;
+}
+
+#aboutme h2, #habilidades h2, #proyectos h2{
+  text-decoration: underline solid red;
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 3rem;
+}
+
+#aboutme p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+
+#aboutme img{
+  border-radius: 50%;
+}
+
+.github{
+  padding: 16px;
+  width: 160px;
+}
+
+#habilidades img{
+  width: 11rem;
+
+}
+
+#habilidades span{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+
+.conthab div{
+  border-radius: 10px;
+  background: #212529;
+  margin: 10px;
+ 
+}
+
+
+.conthab div:hover{
+  opacity: 0.4;
+  transition: 0.2s;
+}
+
+#proyectos h3{
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 2.5rem;
+}
+
+#proyectos p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+
+#proyectos hr{
+  width: 90%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#proyectos svg{
+  margin-right: 0.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#proyectos button{
+  border: #be0707 1px solid;
+  margin: 0.5rem;
+}
+
+#proyectos button p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#proyectos a{
+  text-decoration: none;
+}
+
+.modal-title {
+  font-family: 'Grenze Gotisch', cursive;
+}
