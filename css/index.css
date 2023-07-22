@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Heartless';
-  src: url('/assets/fuentes/Heartless.ttf');
+  src: url('../assets/fuentes/Heartless.ttf');
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('/assets/fuentes/Roboto-Regular.ttf');
+  src: url('../assets/fuentes/Roboto-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Grenze Gotisch';
-  src: url('/assets/fuentes/static/GrenzeGotisch-Regular.ttf');
+  src: url('../assets/fuentes/static/GrenzeGotisch-Regular.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
@@ -118,6 +118,11 @@ header button{
 #proyectos h3{
   font-family: 'Grenze Gotisch', cursive;
   font-size: 2.5rem;
+}
+
+#proyectos h4{
+  font-weight: lighter;
+  font-style: italic;
 }
 
 #proyectos p{
