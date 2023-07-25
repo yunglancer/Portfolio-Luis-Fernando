@@ -68,7 +68,7 @@ header button{
   width: 100%;
 }
 
-#aboutme h2, #habilidades h2, #proyectos h2{
+#aboutme h2, #habilidades h2, #proyectos h2, #contacto h2{
   text-decoration: underline solid red;
   font-family: 'Grenze Gotisch', cursive;
   font-size: 3rem;
@@ -157,6 +157,7 @@ header button{
   text-decoration: none;
 }
 
-.modal-title {
+.modal-title, #contacto h3 {
   font-family: 'Grenze Gotisch', cursive;
 }
+
