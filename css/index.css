@@ -40,7 +40,7 @@ h2{
   text-decoration: underline solid red;
 }
 
-header a{
+header a, footer a{
   color: white;
   padding: 0px;
   text-decoration: none;
@@ -159,5 +159,24 @@ header button{
 
 .modal-title, #contacto h3 {
   font-family: 'Grenze Gotisch', cursive;
+}
+
+#contacto svg, #contacto img{
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.redes{
+  width: 20%;
+  margin: 1rem;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: #212529;
+  border: #000 1px solid;
+}
+
+footer a{
+  margin: 1rem;
 }
 
