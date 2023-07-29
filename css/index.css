@@ -23,11 +23,14 @@ body{
 
 header{
   background-color: #16181a;
+  justify-content: center;
 }
 
 header svg{
   color: #be0707;
 }
+
+
 
 .backgroundsvg{
   background-color: #101113;
@@ -55,6 +58,10 @@ header span{
 
 header button{
   border: none !important;
+}
+
+.nv{
+  display: none;
 }
 
 .yunglancer{
@@ -100,7 +107,9 @@ header button{
   font-weight: bold;
 }
 
-
+.conthab{
+  width: 75%;
+}
 
 .conthab div{
   border-radius: 10px;
@@ -118,6 +127,10 @@ header button{
 #proyectos h3{
   font-family: 'Grenze Gotisch', cursive;
   font-size: 2.5rem;
+}
+
+.proyectocont{
+  width: 75%;
 }
 
 #proyectos h4{
@@ -141,6 +154,14 @@ header button{
   margin-right: 0.5rem;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.img-p{
+  flex-direction: row;
+}
+
+.img-p div{
+  width: 50%;
 }
 
 #proyectos button{
@@ -167,8 +188,12 @@ header button{
 }
 
 
+.contredes{
+  width: 75%;
+}
+
 .redes{
-  width: 20%;
+  width: 25%;
   margin: 1rem;
   border-radius: 10px;
   justify-content: center;
@@ -176,7 +201,297 @@ header button{
   border: #000 1px solid;
 }
 
+.redes:hover{
+  background-color: #000;
+  transition: 0.2s;
+}
+
+#contacto button{
+  width: 25%;
+}
+
+footer div{
+  width: 50%;
+}
+
+
+footer ul{
+  justify-content: flex-end;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+footer ul a{
+  font-size: 1.25rem;
+}
+
 footer a{
   margin: 1rem;
 }
 
+@media (min-width: 768px) and (max-width: 1199px){
+
+  #habilidades img{
+    width: 8rem;
+  }
+
+  .conthab{
+    width: 100%;
+  }
+
+  .img-p{
+    flex-direction: column;
+  }
+
+  .img-p div{
+    width: 100%;
+  }
+
+  .redes{
+    width: 30%;
+  }
+
+  .contredes{
+    width: 100%;
+  }
+
+  .proyectocont a{
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+  }
+
+ .proyectocont button{
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+  
+  footer div{
+    width: 100%;
+  }
+
+  footer span{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  footer ul{
+    justify-content: center;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+
+  .aboutmehero{
+    flex-direction: column;
+  }
+
+  .aboutmehero img{
+    margin-bottom: 3rem !important;
+    width: 40% !important;
+  }
+
+  .aboutmehero p{
+    margin: auto;
+  }
+
+  #contacto button{
+    width: 50%;
+  }
+  
+}
+
+@media (max-width: 767px){
+    header{
+      justify-content: space-between;
+    }
+
+    header .nav{
+      display: none;
+    }
+
+    header button a{
+      font-size: 1.25rem !important;
+    }
+
+    .nv{
+    display: block;
+    border: 1px solid #be0707 !important;
+    margin: auto;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px;
+  }
+
+  
+
+  .aboutmehero{
+    flex-direction: column;
+  }
+  
+  .aboutmehero img{
+    margin-bottom: 2.5rem !important;
+    width: 40% !important;
+  }
+
+  .aboutmehero p{
+    margin: auto;
+    font-size: 1.2rem !important;
+  }
+
+  #habilidad .container{
+    width: 90% !important;
+  }
+
+  #habilidades img{
+    width: 8rem;
+  }
+
+
+  #proyectos h2{
+    width: 80% !important;
+    text-align: center;
+    margin: auto;
+  }
+
+  .img-p{
+    flex-direction: column;
+  }
+
+  .img-p div, .proyectocont{
+    width: 100%;
+  }
+
+  .proyectocont{
+    justify-content: center;
+  }
+
+  #proyectos svg{
+    margin-right: 0.3rem;
+  }
+  
+  #proyectos button{
+    padding: 0.5rem;
+  }
+
+  #proyectos button p{
+    font-size: 13px;
+  }
+
+  #proyectos .m-3{
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+
+  .redes{
+    width: 40%;
+  }
+
+  .contredes{
+    width: 100%;
+  }
+
+  .proyectocont a{
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .proyectocont button{
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+    }
+
+    #contacto form{
+      width: 75% !important;
+    }
+
+    footer{
+      flex-direction: column;
+    }
+    
+    footer div{
+      width: 100%;
+    }
+  
+    footer span{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    footer ul{
+      margin-top: 1rem;
+      justify-content: center !important;
+
+    }
+
+
+      footer ul a{
+      font-size: 1.25rem !important;
+    }
+
+    #contacto button{
+      width: 50%;
+    }
+    
+  
+
+}
+
+@media (max-width: 560px){
+  header button a{
+    font-size: 1rem !important;
+  }
+
+  .conthab{
+    width: 100%;
+  }
+
+  #habilidades img{
+    width: 5rem;
+  }
+  #habilidades span{
+    font-size: 0.8rem;
+  }
+
+  .redes{
+    width: 70%;
+  }
+
+  #contacto form{
+    width: 80% !important;
+  }
+
+  footer ul a{
+    font-size: 1rem !important;
+  }
+
+  footer ul{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+
+
+}
+
+@media (max-width: 385px){
+  header button a{
+    font-size: 0.8rem !important;
+  }
+
+  footer ul a{
+    font-size: 0.8rem !important;
+  }
+  footer ul{
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+}

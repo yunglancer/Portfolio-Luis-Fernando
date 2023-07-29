@@ -12,7 +12,7 @@
 </head>
 <body>
   <!--Header-->
-    <header class="sticky-top d-flex flex-wrap justify-content-center pt-3 pb-3 mb-3">
+    <header class="sticky-top d-flex flex-wrap pt-3 pb-3 mb-3">
       <a href="#presentacion" class="d-flex align-items-center mb-3 mx-4 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <span class="fs-3 text-white mx-2">Yung Lancer</span>
         <svg xmlns="http://www.w3.org/2000/svg" class="mx-2" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
@@ -26,6 +26,20 @@
         <li class="nav-item mx-2"><button type="button" class="btn btn-outline-dark"><a href="#proyectos" class="fs-5">Proyectos</a></button></li>
         <li class="nav-item mx-2"><button type="button" class="btn btn-outline-dark"><a href="#contacto" class="fs-5">Contacto</a></button></li>
       </ul>
+      <button class="navbar-toggler text-white mx-4 nv" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon m-auto">
+          <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0 flex-row justify-content-center">
+          <li class="nav-item mx-2"><button type="button" class="btn btn-outline-dark"><a href="#aboutme">Sobre mi</a></button></li>
+          <li class="nav-item mx-2"><button type="button" class="btn btn-outline-dark"><a href="#habilidades">Habilidades</a></button></li>
+          <li class="nav-item mx-2"><button type="button" class="btn btn-outline-dark"><a href="#proyectos">Proyectos</a></button></li>
+          <li class="nav-item mx-2"><button type="button" class="btn btn-outline-dark"><a href="#contacto">Contacto</a></button></li>
+        </ul>
+      </div>
     </header>
     <!--Titulo principal-->
     <div class="backgroundsvg position-relative overflow-hidden">
@@ -52,7 +66,7 @@
         <h2 class="w-100 text-center text-white">Sobre mi</h2>
       </div>
       <div class="container flex-row d-flex col-xxl-12 px-4 py-3" >
-        <div class="d-flex align-items-center g-5 py-5">
+        <div class="d-flex aboutmehero  align-items-center g-5 py-5">
           <div class="col-lg-6 m-auto d-flex" data-aos="fade-right"  data-aos-duration="1500">
            <img class="w-50 m-auto" alt="Ilustracion de yung lancer" src="assets/imagenes/WhatsApp Image 2022-12-06 at 11.34.29 PM.jpeg">
           </div>
@@ -72,7 +86,7 @@
         <h2 class="w-100 text-center text-white">Habilidades</h2>
       </div>
       <div class="container flex-row d-flex col-xxl-12 px-4 py-5 justify-content-center" >
-        <div class="conthab d-flex justify-content-center flex-wrap w-75" data-aos="flip-down"  data-aos-duration="1500">
+        <div class="conthab d-flex justify-content-center flex-wrap" data-aos="flip-down"  data-aos-duration="1500">
           <div class="d-flex flex-column p-3">
             <img alt="HTML Logo" src="assets/imagenes/icons8-html-5.svg">
             <span>HTML</span>
@@ -103,7 +117,8 @@
           </div>
           <div class="d-flex flex-column p-3">
             <img alt="Diseño Responsive"  class="github" src="assets/imagenes/icon-tablet-phone-and-browser.svg">
-            <span>Diseño Responsive</span>
+            <span>Diseño</span>
+            <span>Responsive</span>
           </div>
         </div>
       </div>
@@ -118,19 +133,19 @@
         <h2 class="w-100 my-5 text-center text-white">Proyectos y Trabajos</h2>
         <hr class="mx-auto">
         <!--Ghoscer-->
-      <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" data-aos="fade-right"  data-aos-duration="1500">
-        <div class="d-flex justify-content-center flex-wrap w-75">
+      <div class="container flex-row justify-content-center m-auto align-items-center d-flex col-xxl-12 px-4 py-3" >
+        <div class="d-flex justify-content-center flex-wrap proyectocont">
           <div class="d-flex flex-column p-3">
             <div class="d-flex w-100 justify-content-center flex-column">
               <h3 class="text-center">Ghoscer Shop</h3>
               <h4 class="text-center my-2">Website - 2023</h4>
             </div>
-            <div class="d-flex flex-row w-100 my-4">
-              <div class="d-flex w-50 justify-content-center">
+            <div class="d-flex img-p w-100 my-4">
+              <div class="d-flex justify-content-center">
                 <img class="w-100 m-4" src="assets/imagenes/Captura.PNG" alt="">
               </div>
     
-              <div class="d-flex w-50 m-3">
+              <div class="d-flex m-3">
                 <p class="m-auto" > Diseño y maquetacion del Front-end de la tienda online "Ghoscer". Es un sitio web estatico de 9 paginas, esta basado en un e-commerce ficticio de una marca de ropa llamada "Ghoscer". Hecho en HTML, CSS, Bootstrap y JavaScript</p>
               </div>
             </div>
@@ -184,19 +199,19 @@
 
       <hr class="mx-auto">
        <!--Portfolio-->
-       <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" data-aos="fade-left"  data-aos-duration="1500">
-        <div class="d-flex justify-content-center flex-wrap w-75">
-          <div class="d-flex flex-column p-3">
+       <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" >
+        <div class="d-flex justify-content-center flex-wrap proyectocont">
+          <div class="d-flex flex-column  p-3">
             <div class="d-flex w-100 justify-content-center flex-column">
               <h3 class="text-center">Mi Portfolio</h3>
               <h4 class="text-center my-2">Website - 2023</h4>
             </div>
-            <div class="d-flex flex-row w-100 my-4">
-              <div class="d-flex w-50 justify-content-center">
+            <div class="d-flex img-p w-100 img-p my-4">
+              <div class="d-flex justify-content-center">
                 <img class="w-100 m-4" src="assets/imagenes/portfolio/Captura.PNG" alt="">
               </div>
     
-              <div class="d-flex w-50 m-3">
+              <div class="d-flex m-3">
                 <p class="m-auto" > Diseño y maquetacion de mi portfolio de desarrollo web. Es un sitio web estatico compuesto por una pagina. Hecho en HTML, CSS, Bootstrap y JavaScript</p>
               </div>
             </div>
@@ -247,19 +262,19 @@
 
       <hr class="mx-auto">
       <!--El Libertador-->
-      <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" data-aos="fade-right"  data-aos-duration="1500">
-        <div class="d-flex justify-content-center flex-wrap w-75">
+      <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" >
+        <div class="d-flex justify-content-center flex-wrap proyectocont">
           <div class="d-flex flex-column p-3">
             <div class="d-flex w-100 justify-content-cente flex-column">
               <h3 class="text-center">El Libertador</h3>
               <h4 class="text-center my-2">Videojuego - 2022/2023</h4>
             </div>
-            <div class="d-flex flex-row w-100 my-4">
-              <div class="d-flex w-50 justify-content-center">
+            <div class="d-flex img-p w-100 my-4">
+              <div class="d-flex justify-content-center">
                 <img class="w-100 m-4" src="assets/imagenes/ellibertador/Captura.PNG" alt="">
               </div>
     
-              <div class="d-flex w-50 m-3">
+              <div class="d-flex m-3">
                 <p class="m-auto" > "El Libertador" es un videojuego educativo biográfico creado para niños de 10 años en adelante. El proyecto es un videojuego de rol en 2D con elementos de aventura, combate por turnos, puzzles, trivias, entre otros, que se basa en la vida y obra del político y militar venezolano, “Simón Bolívar”. Este videojuego cuenta con 8 niveles diferentes, y cada uno se enfoca específicamente en un acontecimiento especifico de la vida de Bolívar. Hecho en RPG Maker MZ</p>
               </div>
             </div>
@@ -329,19 +344,19 @@
       </div>
       <hr class="mx-auto">
       <!--Wikipedia-->
-      <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" data-aos="fade-left"  data-aos-duration="1500">
-       <div class="d-flex justify-content-center flex-wrap w-75">
+      <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" >
+       <div class="d-flex justify-content-center flex-wrap proyectocont">
          <div class="d-flex flex-column p-3">
            <div class="d-flex w-100 justify-content-center flex-column">
              <h3 class="text-center">Wikipedia Clon</h3>
              <h4 class="text-center my-2">Website - 2022</h4>
            </div>
-           <div class="d-flex flex-row w-100 my-4">
-             <div class="d-flex w-50 justify-content-center">
+           <div class="d-flex img-p w-100 my-4">
+             <div class="d-flex justify-content-center">
                <img class="w-100 m-4" src="assets/imagenes/wikipedia/Captura.PNG" alt="">
              </div>
    
-             <div class="d-flex w-50 m-3">
+             <div class="d-flex m-3">
                <p class="m-auto">Maquetacion y replica de la pagina principal en vista desktop de la enciclopedia online: "Wikipedia". Consiste en una pagina estatica con todos los elementos visuales que tiene la pagina. Hecha en HTML y CSS</p>
              </div>
            </div>
@@ -386,19 +401,19 @@
 
       <hr class="mx-auto">
        <!--Beneficios Si-->
-       <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" data-aos="fade-right"  data-aos-duration="1500">
-        <div class="d-flex justify-content-center flex-wrap w-75">
+       <div class="container flex-row justify-content-center d-flex col-xxl-12 px-4 py-3" >
+        <div class="d-flex justify-content-center flex-wrap proyectocont">
           <div class="d-flex flex-column p-3">
             <div class="d-flex w-100 justify-content-center flex-column">
               <h3 class="text-center">Beneficio Si</h3>
               <h4 class="text-center my-2">Website - 2021</h4>
             </div>
-            <div class="d-flex flex-row w-100 my-4">
-              <div class="d-flex w-50 justify-content-center">
+            <div class="d-flex img-p w-100 my-4">
+              <div class="d-flex justify-content-center">
                 <img class="w-100 m-4" src="assets/imagenes/beneficiossi/Captura.PNG" alt="">
               </div>
     
-              <div class="d-flex w-50 m-3">
+              <div class="d-flex m-3">
                 <p class="m-auto">Conversion del frontend de una tienda virtual en desarrollo. Es un sitio web que consta de una pagina web en vista desktop. No es "responsive". Esta basado en un e-commerce a gran escala. Hecho totalmente en HTML y CSS sin frameworks y/o librerias externas.</p>
               </div>
             </div>
@@ -464,7 +479,7 @@
       </div>
       <div class="container flex-row d-flex col-xxl-12 px-4 py-5" >
         <div class="d-flex flex-column w-100">
-          <div class="d-flex w-75 flex-column m-auto" data-aos="zoom-in-up" data-aos-duration="1500">
+          <div class="d-flex contredes flex-column m-auto" data-aos="zoom-in-up" data-aos-duration="1500">
             <h3 class="h3 mb-3 fw-normal text-center fs-2">Mis Redes Sociales</h3>
             <div class="d-flex flex-wrap w-100 my-3 justify-content-center">
           
@@ -545,12 +560,12 @@
               </div>
              
               <div class="mb-3">
-                <label for="floatingTextarea2" class="form-label">Mensaje</label>
+                <label for="floatingTextarea2" class="form-label">Mensaje:</label>
                 <textarea name="message" class="form-control" placeholder="Deja tu mensaje" id="floatingTextarea2" style="height: 100px"></textarea>
                 
               </div>
         
-          <button type="submit" target="_blank" class="w-25 btn btn-danger m-auto">Enviar</button>
+          <button type="submit" target="_blank" class="btn btn-danger mt-3 m-auto">Enviar</button>
           </form>
           </div>
           
@@ -562,15 +577,15 @@
 
 
     <footer class="d-flex flex-wrap py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center w-50">
-        <span class="mb-3 mb-md-0 text-white mx-5">&copy; Luis Fernando a.k.a yung lancer. All rights reserved. 2023</span>
+      <div class="d-flex align-items-center">
+        <span class="mb-3 text-white mx-5">&copy; Luis Fernando a.k.a yung lancer. All rights reserved. 2023</span>
       </div>
-      <div class="col-md-4 d-flex align-items-center w-50">
-        <ul class="nav nav-pills mx-5 justify-content-end w-100">
-          <li class="nav-item mx-2"><a href="#aboutme" class="fs-5">Sobre mi</a></li>
-          <li class="nav-item mx-2"><a href="#habilidades" class="fs-5">Habilidades</a></li>
-          <li class="nav-item mx-2"><a href="#proyectos" class="fs-5">Proyectos</a></li>
-          <li class="nav-item mx-2"><a href="#contacto" class="fs-5">Contacto</a></li>
+      <div class="d-flex align-items-center">
+        <ul class="nav nav-pills w-100">
+          <li class="nav-item mx-2"><a href="#aboutme">Sobre mi</a></li>
+          <li class="nav-item mx-2"><a href="#habilidades" >Habilidades</a></li>
+          <li class="nav-item mx-2"><a href="#proyectos" >Proyectos</a></li>
+          <li class="nav-item mx-2"><a href="#contacto">Contacto</a></li>
         </ul>
       </div>
     </footer>
