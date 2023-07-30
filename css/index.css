@@ -193,12 +193,17 @@ header button{
 }
 
 .redes{
-  width: 25%;
+  width: 20%;
   margin: 1rem;
   border-radius: 10px;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #212529;
   border: #000 1px solid;
+
+}
+.redes span{
+  width: 55%;
+  text-align: center;
 }
 
 .redes:hover{
@@ -373,6 +378,10 @@ footer a{
     justify-content: center;
   }
 
+  .proyectocont p{
+    font-size: 1.1rem !important;
+  }
+
   #proyectos svg{
     margin-right: 0.3rem;
   }
@@ -381,8 +390,9 @@ footer a{
     padding: 0.5rem;
   }
 
+ 
   #proyectos button p{
-    font-size: 13px;
+    font-size: 13px !important;
   }
 
   #proyectos .m-3{
