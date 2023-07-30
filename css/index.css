@@ -509,14 +509,25 @@ footer a{
 
 }
 
+@media (max-width: 450px){
+  footer ul{
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+  footer li{
+    margin: auto;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+ 
+}
+
 @media (max-width: 385px){
   header button a{
     font-size: 0.8rem !important;
   }
 
-  footer ul a{
-    font-size: 0.8rem !important;
-  }
   footer ul{
     margin-left: 0.5rem !important;
     margin-right: 0.5rem !important;
