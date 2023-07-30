@@ -294,6 +294,11 @@ footer a{
 
 @media (min-width: 768px) and (max-width: 990px){
 
+    body{
+      overflow-x: hidden;
+    
+    }
+
   .aboutmehero{
     flex-direction: column;
   }
@@ -318,6 +323,11 @@ footer a{
       justify-content: space-between;
     }
 
+    body{
+      overflow-x: hidden;
+    
+    }
+    
     header .nav{
       display: none;
     }
