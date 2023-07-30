@@ -20,6 +20,11 @@ body{
   background-color: #16181a;
   color: white;
   overflow-x: hidden;
+  width: 100vw;
+}
+
+div{
+  overflow-x: hidden;
 }
 
 header{
