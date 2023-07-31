@@ -1,4 +1,4 @@
-# Ghoscer-Shop
+# Portfolio 
 Repositorio del portfolio de desarrollador web de mi persona, Luis Fernando Cifuentes, consiste en una landing page que muestra mi informacion personal, proyectos, conocimientos y informacion de contacto
 
 ## Lenguajes utilizados
